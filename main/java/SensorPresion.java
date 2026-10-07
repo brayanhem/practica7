@@ -9,7 +9,7 @@ public class SensorPresion extends Sensor{
     @Override
     public double leervalor() {
         System.out.println("Leyendo presion");
-        this.valorActual = 900.0+(Math.random()*100.0);
-        return 0;
+        this.valorActual = 900.0+(Math.random()*200.0);
+        return this.valorActual;
     }
 }

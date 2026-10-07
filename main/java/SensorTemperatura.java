@@ -9,7 +9,7 @@ public class SensorTemperatura extends Sensor{
     @Override
     public double leervalor() {
         System.out.println("Leyendo la temperatura del sensor");
-        this.valorActual = 10.0 + (Math.random()*15);
+        this.valorActual = 20.0 + (Math.random()*15);
         return this.valorActual;
     }
 }
